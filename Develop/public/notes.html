@@ -49,6 +49,8 @@
           textarea: document.querySelector(".note-textarea")
         };
 
+        console.log(newNote);
+
         fetch('/api/notes', {
           // Stuff needs to go here, not sure what yet
           method: 'POST',
