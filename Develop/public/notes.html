@@ -45,8 +45,8 @@
         event.preventDefault();
 
         let newNote = {
-          title: (document.querySelector(".note-title").textContent),
-          textarea: (document.querySelector(".note-textarea").textContent)
+          title: (document.querySelector(".note-title").value),
+          textarea: (document.querySelector(".note-textarea").value)
         };
 
         console.log(newNote);
