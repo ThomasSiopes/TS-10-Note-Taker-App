@@ -7,4 +7,9 @@ module.exports = (app) => {
         noteData.push(req.body);
         res.json(true);
     });
-}
+
+    app.post('api/clear', (req, res) => {
+        noteData.length = 0;
+        res.json({ok:true});
+    });
+};
