@@ -1,26 +1,24 @@
 {
-  "name": "note-taker",
+  "name": "ts-10-note-taker-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThomasSiopes/TS-10-Note-Taker-App.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ThomasSiopes/TS-10-Note-Taker-App/issues"
   },
-  "homepage": "https://github.com/ThomasSiopes/TS-10-Note-Taker-App/public/index.html"
+  "homepage": "https://github.com/ThomasSiopes/TS-10-Note-Taker-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
 }
